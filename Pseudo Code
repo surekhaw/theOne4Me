@@ -1,0 +1,33 @@
+# Required code:
+User input - 
+Anaylysis - Download Myer Briggs, Dog breed characteristic; use Pandas to filter and match database 
+Output - Dog breed and description; visual pics
+
+# Introduction to the One4Me
+- provide a brief explaination and summary of the platform
+- Briefly include/describe the  
+
+# User is asked a series of questions:
+1. Do you live in a city or rural area?
+
+[City:Terrier, Toy, non sporting] [Rural:herding, working, sporting, hound]
+
+2. Do you have small children or do you live alone?
+
+3. How active would you consider yourself?
+- On a scale of 1 to 5
+
+4. Do you have any physical limitations?
+
+5. Do you live in a region that is typically hot, mild, or cold?
+- Hot dog breeds
+- Mild dog breeds
+- Cold breeds
+
+6. What is you age:
+- 18 to 35
+- 36 to 50
+- 51 to 64
+- Senior
+
+Output -- 3-5 Dog breed suggestions
