@@ -7,12 +7,27 @@ Output - Dog breed and description; visual pics
 - provide a brief explaination and summary of the platform
 - Briefly include/describe the  
 
-# User is asked a series of questions:
-1. Do you live in a city or rural area?
+# imports
+import dog datatbase (csv)
+import numpy as np
+import pandas as pd
+
+# dictionaries
+small_dogs = {'small_dogs_city': {}, 'small_dogs_rural': {}, 'small_dogs_active' {}, 'small_dogs_lazy' = {}}
+medium_dogs = {'medium_dogs_city': {}, 'medium_dogs_rural': {}, 'medium_city_active' = {}, 'medium_dogs_lazy' = {}}
+large_dogs = {'large_dogs_city': {}, 'large_dogs_rural': {}, 'large_dogs_active': {}, 'large_dogs_lazy': = {}}
+
+# User is asked a series of questions
+1. What size dog are you interested in?
+A. Small, 
+B. Medium 
+C. Large 
+
+2. Do you live in a city or rural area?
 
 [City:Terrier, Toy, non sporting] [Rural:herding, working, sporting, hound]
 
-2. Do you have small children or do you live alone?
+Do you have small children or do you live alone?
 
 3. How active would you consider yourself?
 - On a scale of 1 to 5
