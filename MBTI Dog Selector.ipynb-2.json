@@ -1,0 +1,295 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Do you get your energy from interaction with the world around you (Extravert), or more from yourself, with your own activities and thoughts (Introvert)?\n",
+      "Please enter \"E\" or \"I\"\n",
+      "E\n"
+     ]
+    }
+   ],
+   "source": [
+    "MBTI = \"\"\n",
+    "print('Do you get your energy from interaction with the world around you (Extravert), or more from yourself, with your own activities and thoughts (Introvert)?')\n",
+    "A = \"\"\n",
+    "while A == \"\":\n",
+    "    print('Please enter \"E\" or \"I\"')\n",
+    "    A = input()\n",
+    "    if (A == \"E\" or A == \"I\"):\n",
+    "        break\n",
+    "    else:A = \"\"\n",
+    "MBTI = A"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Does your info preferably come from observing, measuring, experience (Sensing), or from explanation, reasoning, more abstract understanding (iNtuition)?\n",
+      "Please enter \"S\" or \"N\"\n",
+      "S\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Does your info preferably come from observing, measuring, experience (Sensing), or from explanation, reasoning, more abstract understanding (iNtuition)?')\n",
+    "A = \"\"\n",
+    "while A == \"\":\n",
+    "    print('Please enter \"S\" or \"N\"')\n",
+    "    A = input()\n",
+    "    if (A == \"S\" or A == \"N\"):\n",
+    "        break\n",
+    "    else:A = \"\"\n",
+    "MBTI = MBTI + A"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "How do you decide: by way of ratio, logic, given decision criteria (Thinking), or by looking at context, interests, what feels right (Feeling)?\n",
+      "Please enter \"T\" or \"F\"\n",
+      "T\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('How do you decide: by way of ratio, logic, given decision criteria (Thinking), or by looking at context, interests, what feels right (Feeling)?')\n",
+    "A = \"\"\n",
+    "while A == \"\":\n",
+    "    print('Please enter \"T\" or \"F\"')\n",
+    "    A = input()\n",
+    "    if (A == \"T\" or A == \"F\"):\n",
+    "        break\n",
+    "    else:A = \"\"\n",
+    "MBTI = MBTI + A"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "How do you approach situations: should things go as planned and wanted (Judgement), or are you flexible, open to change, go with the flow (Perception)?\n",
+      "Please enter \"J\" or \"P\"\n",
+      "J\n",
+      "ESTJ\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('How do you approach situations: should things go as planned and wanted (Judgement), or are you flexible, open to change, go with the flow (Perception)?')\n",
+    "A = \"\"\n",
+    "while A == \"\":\n",
+    "    print('Please enter \"J\" or \"P\"')\n",
+    "    A = input()\n",
+    "    if (A == \"J\" or A == \"P\"):\n",
+    "        break\n",
+    "    else:A = \"\"\n",
+    "MBTI = MBTI + A\n",
+    "print(MBTI)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Thank you for participating in our quiz. Here is the dog breed we suggest suits you best:\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Thank you for participating in our quiz. Here is the dog breed we suggest suits you best:')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Do you get your energy from interaction with the world around you (Extravert), or more from yourself, with your own activities and thoughts (Introvert)?\n",
+      "Please enter \"E\" or \"I\"\n",
+      "e\n",
+      "Please enter \"E\" or \"I\"\n",
+      "E\n",
+      "Does your info preferably come from observing, measuring, experience (Sensing), or from explanation, reasoning, more abstract understanding (iNtuition)?\n",
+      "Please enter \"S\" or \"N\"\n",
+      "S\n",
+      "How do you decide: by way of ratio, logic, given decision criteria (Thinking), or by looking at context, interests, what feels right (Feeling)?\n",
+      "Please enter \"T\" or \"F\"\n",
+      "T\n",
+      "How do you approach situations: should things go as planned and wanted (Judgement), or are you flexible, open to change, go with the flow (Perception)?\n",
+      "Please enter \"J\" or \"P\"\n",
+      "J\n",
+      "ESTJ\n",
+      "\n",
+      " Thank you for participating in our quiz. Here is the dog breed we suggest suits you best: \n",
+      "\n",
+      "Briard\n",
+      "One of the best canine guardians you’ll find anywhere is the Briard. While many dogs are bred for herding or guarding; the Briard was bred to do both jobs. They are intelligent, responsible, loyal, and vigilant – much like the ESTJ. Often called “a heart of gold wrapped in fur”, these dogs are known for their incredible memory and trainability. They like to herd animals or people into the correct boundaries, and they like routine and having a definite authority figure in charge. While they may seem to be all about work; these dogs have an unexpected gentle side, and grow very close to their families – often being very upset if left alone for long periods of time.\n"
+     ]
+    }
+   ],
+   "source": [
+    "MBTI = \"\"\n",
+    "print('Do you get your energy from interaction with the world around you (Extravert), or more from yourself, with your own activities and thoughts (Introvert)?')\n",
+    "A = \"\"\n",
+    "while A == \"\":\n",
+    "    print('Please enter \"E\" or \"I\"')\n",
+    "    A = input()\n",
+    "    if (A == \"E\" or A == \"I\"):\n",
+    "        break\n",
+    "    else:A = \"\"\n",
+    "MBTI = A\n",
+    "\n",
+    "print('Does your info preferably come from observing, measuring, experience (Sensing), or from explanation, reasoning, more abstract understanding (iNtuition)?')\n",
+    "A = \"\"\n",
+    "while A == \"\":\n",
+    "    print('Please enter \"S\" or \"N\"')\n",
+    "    A = input()\n",
+    "    if (A == \"S\" or A == \"N\"):\n",
+    "        break\n",
+    "    else:A = \"\"\n",
+    "MBTI = MBTI + A\n",
+    "\n",
+    "print('How do you decide: by way of ratio, logic, given decision criteria (Thinking), or by looking at context, interests, what feels right (Feeling)?')\n",
+    "A = \"\"\n",
+    "while A == \"\":\n",
+    "    print('Please enter \"T\" or \"F\"')\n",
+    "    A = input()\n",
+    "    if (A == \"T\" or A == \"F\"):\n",
+    "        break\n",
+    "    else:A = \"\"\n",
+    "MBTI = MBTI + A\n",
+    "\n",
+    "print('How do you approach situations: should things go as planned and wanted (Judgement), or are you flexible, open to change, go with the flow (Perception)?')\n",
+    "A = \"\"\n",
+    "while A == \"\":\n",
+    "    print('Please enter \"J\" or \"P\"')\n",
+    "    A = input()\n",
+    "    if (A == \"J\" or A == \"P\"):\n",
+    "        break\n",
+    "    else:A = \"\"\n",
+    "MBTI = MBTI + A\n",
+    "print(MBTI)\n",
+    "\n",
+    "print('\\n Thank you for participating in our quiz. Here is the dog breed we suggest suits you best: \\n')\n",
+    "\n",
+    "if MBTI == \"ESTJ\":\n",
+    "    print('Briard')\n",
+    "    print('One of the best canine guardians you’ll find anywhere is the Briard. While many dogs are bred for herding or guarding; the Briard was bred to do both jobs. They are intelligent, responsible, loyal, and vigilant – much like the ESTJ. Often called “a heart of gold wrapped in fur”, these dogs are known for their incredible memory and trainability. They like to herd animals or people into the correct boundaries, and they like routine and having a definite authority figure in charge. While they may seem to be all about work; these dogs have an unexpected gentle side, and grow very close to their families – often being very upset if left alone for long periods of time.')\n",
+    "\n",
+    "elif MBTI == \"ISTP\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "\n",
+    "elif MBTI == \"INTP\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "\n",
+    "elif MBTI == \"ENFP\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    \n",
+    "elif MBTI == \"ENTP\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    \n",
+    "elif MBTI == \"INFJ\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    \n",
+    "elif MBTI == \"ESFJ\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "\n",
+    "elif MBTI == \"ENFJ\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    \n",
+    "elif MBTI == \"INFP\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    \n",
+    "elif MBTI == \"ISFP\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    \n",
+    "elif MBTI == \"ESFP\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    \n",
+    "elif MBTI == \"ESTP\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    \n",
+    "elif MBTI == \"ISFJ\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    \n",
+    "elif MBTI == \"ISTJ\":\n",
+    "    print('Border Collie')\n",
+    "    print('Border collies are probably the most intelligent dog breed you’ll find anywhere. Known for their intense stare, unlimited energy, and working drive, these dogs exhibit a lot of ENTJ tendencies. Known as “workaholic dogs” these collies are not cuddly couch potatoes. They have intense mental and physical stamina and like to get jobs done and constantly learn more. These collies have no problem taking the lead and directing and will herd anyone – animal or human – into their designated location. They are known for their intuitive ability to predict their owner’s desire in advance – similar to the ENTJ’s intuition about how to predict future trends or business opportunities. Border collies are intelligent, intensely curious – and my pick for the best fit ENTJ dog breed.')\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
